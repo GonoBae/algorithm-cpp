@@ -1,52 +1,47 @@
-# **CTS(~ing)**
+# Algorithm Study with C++
 
-## **목표**
+C++ algorithm practice repository. It keeps current solutions separate from historical study records so that each solution can be explained, tested, and revisited clearly.
 
-- 코딩테스트 대비
+## Current practice — 2026
 
+- Platform: Programmers and Baekjoon
+- Language: C++
+- Focus: data structures, algorithms, time complexity, and repeatable problem-solving
+- Recording rule: every current solution includes the problem ID, topic, complexity, and a short note about the approach or a previous mistake.
 
-## **계획**
-- Level 1
-- Level 2
-- Level 3
-- 백준
+## Repository layout
 
+```text
+solutions/                  # Current solutions from 2026 onward
+  programmers/
+  baekjoon/
+docs/
+  solved.md                 # Current solution index and revisit notes
+archive/
+  2024-03/                  # Previous individual CTS study record
+  2022-2023-team-study/     # Migrated personal contributions from team study
+MIGRATION.md                # Migration scope and provenance
+```
 
-## **규칙**
-- 매주 `2문제` 풀기 (월/목)
-- 푼 문제
-  - README 표에 :heavy_check_mark: 표시 하고 이모지에 `풀이 링크 달 것.`
-- 못 푼 문제
-  - README 표에 :question: 표시
-- 다시 볼 문제
-  - README 표에 :pencil: 표시
-  - 다른 사람의 코드를 참고하여 풀었을 경우, 주석 꼼꼼하게 달고 `풀이 링크 달 것.`
-<br><br>
+## Current solution workflow
 
-## **사용 이모지**
+1. Solve independently and submit.
+2. Add a C++ source file under `solutions/` using `problem-id_problem-name.cpp`.
+3. Add the solution to [docs/solved.md](docs/solved.md): topic, complexity, first difficulty, and revisit date.
+4. Re-solve difficult problems without references and update the note.
 
-- 아직 안 푼 문제 : :heavy_multiplication_x:
-- 모르는 문제 : :question:
-- 다시 볼 문제 : :pencil:
-- 푼 문제 : :heavy_check_mark:
-<br><br>
+## Historical records
 
-# **알고리즘**
+| Period | Record | Note |
+|---|---|---|
+| 2026– | [Current solutions](solutions/README.md) | Active C++ algorithm practice |
+| 2024-03 | [Previous individual study](archive/2024-03/) | Preserved from the former `CTS` repository |
+| 2022–2023 | [Personal team-study contributions](archive/2022-2023-team-study/) | Only the original `GonoBae` sources and README entries are included |
 
-## **그리디**
-<details>
-<summary> 2024년 3월 진행 중. </summary>
-<div markdown="1">
+Historical code is retained as a learning record. Current study uses the `solutions/` structure and does not overwrite older solutions.
 
-| 날짜 | 문제 | GonoBae |
-| :---------------------------------------: | :---------------------------------------: | :---------------------------: |
-|2024.03.07| [거스름돈](https://www.acmicpc.net/problem/5585) | [:heavy_check_mark:](https://github.com/GonoBae/CTS/blob/main/2403/240307.cpp) |
-|2024.03.11| [동전 0](https://www.acmicpc.net/problem/11047) |  [:heavy_check_mark:](https://github.com/GonoBae/CTS/blob/main/2403/240312.cpp) |
-|2024.03.14| [박 터뜨리기](https://www.acmicpc.net/problem/19939) |  [:pencil:](https://github.com/GonoBae/CTS/blob/main/2403/240314.cpp) |
-|2024.03.18| [스택](https://www.acmicpc.net/problem/10828) |  [:heavy_check_mark:](https://github.com/GonoBae/CTS/blob/main/2403/240318.cpp) |
-|2024.03.25| [큐](https://www.acmicpc.net/problem/10845) | [:heavy_check_mark:](https://github.com/GonoBae/CTS/blob/main/2403/240325.cpp) |
-|2024.03.28| [주식](https://www.acmicpc.net/problem/11501) |  :heavy_multiplication_x: |
+## Notes
 
-</div>
-</details>
-<br>
+- This repository contains personal study code only.
+- Problem statements are linked instead of copied into the repository.
+- Older sources are preserved for history; they are not automatically treated as the current recommended implementation.
