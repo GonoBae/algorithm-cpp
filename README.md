@@ -7,8 +7,11 @@
 <details>
 <summary><strong>2026 — 신규 풀이</strong></summary>
 
-- [2026 풀이 폴더](2026/)
-- 첫 풀이를 기록할 준비 중입니다.
+| 날짜 | 문제 | 풀이 상태 / 코드 |
+|---|---|---|
+| 2026.09.08 | [프로그래머스 - 완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | [:heavy_check_mark:](2026/42576_unfinished_participant.cpp) |
+
+[2026 풀이 목록](2026/)
 
 </details>
 
